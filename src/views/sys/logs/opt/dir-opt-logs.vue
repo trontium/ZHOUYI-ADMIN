@@ -1,7 +1,7 @@
 <script setup>
 
 import {TimeUtils} from "utils/util.time";
-import {ZyConfirm, ZyNotification} from "@/utils/util.toast.js";
+import {ZsqConfirm, ZsqNotification} from "@/utils/util.toast.js";
 
 const tableData = ref([])
 const fields = reactive([
@@ -289,7 +289,7 @@ const goEdit = (row) => {
 }
 // 删除
 const goDelete = (row) => {
-  ZyConfirm('确认删除该条数据？').then(ok => {
+  ZsqConfirm('确认删除该条数据？').then(ok => {
     // ok && fwsbRemove(row.id).then(res => {
     //   if (res.data) {
     //     goPage(1)

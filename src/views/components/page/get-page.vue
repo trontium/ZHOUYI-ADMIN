@@ -1,5 +1,5 @@
 <script setup>
-import {ZyNotification} from "@/utils/util.toast.js";
+import {ZsqNotification} from "@/utils/util.toast.js";
 
 const ruleFormRef = ref()
 const loading = ref(false)
@@ -34,7 +34,7 @@ const submitForm = (formEl) => {
         ZyNotification.success('操作成功！')
       })*/
       emits('close', true)
-      ZyNotification.success('操作成功！')
+      ZsqNotification.success('操作成功！')
     } else {
       console.log('error submit!')
     }

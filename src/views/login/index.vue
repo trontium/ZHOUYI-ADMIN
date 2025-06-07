@@ -74,7 +74,7 @@
         <ZyLogo/>
         <p style="color: #8A9299; font-size: 15px; margin-top: 10px">
           <a href="https://gitee.com/Z568_568" target="_blank">
-            ZHOUYI·ADMIN 基于 Vue 3 + JavaScript + Pinia +Vite + ElementPlus.搭建 🎉🎉🎉🎉
+            VUE-ADMIN 基于 Vue 3 + JavaScript + Pinia +Vite + ElementPlus.搭建 
           </a>
         </p>
       </div>
@@ -88,7 +88,7 @@
 import router from "@/router/index.js";
 import {authLogin} from "@/api/modules/api.login.js";
 import {useAuthStore} from "@/stores/Users.js";
-import {ZyNotification} from "../../utils/util.toast";
+import {ZsqNotification} from "../../utils/util.toast";
 import IconCommunity from "@/components/icons/IconCommunity.vue";
 
 const userStore = useAuthStore()
