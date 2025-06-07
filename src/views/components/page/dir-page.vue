@@ -2,7 +2,7 @@
 
 import {usersList} from "@/api/modules/api.users";
 import {TimeUtils} from "utils/util.time";
-import {ZsqConfirm, ZsqNotification} from "@/utils/util.toast.js";
+import {ZyConfirm, ZyNotification} from "@/utils/util.toast.js";
 import GetPage from "@/views/components/page/get-page.vue";
 import ViewPage from "@/views/components/page/view-page.vue";
 
@@ -99,7 +99,7 @@ const goEdit = (row) => {
 }
 // 删除
 const goDelete = (row) => {
-  ZsqConfirm('确认删除该条数据？').then(ok => {
+  ZyConfirm('确认删除该条数据？').then(ok => {
     // ok && fwsbRemove(row.id).then(res => {
     //   if (res.data) {
     //     goPage(1)

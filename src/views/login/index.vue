@@ -88,7 +88,7 @@
 import router from "@/router/index.js";
 import {authLogin} from "@/api/modules/api.login.js";
 import {useAuthStore} from "@/stores/Users.js";
-import {ZsqNotification} from "../../utils/util.toast";
+import {ZyNotification} from "../../utils/util.toast";
 import IconCommunity from "@/components/icons/IconCommunity.vue";
 
 const userStore = useAuthStore()
