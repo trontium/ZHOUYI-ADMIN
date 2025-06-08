@@ -1,7 +1,7 @@
 <template>
   <section class="login-box">
     <main class="login-main">
-      <ZyLogo class="logo"/>
+      
       <section class="login-form-box">
         <div class="form-box-head">
           <h1>Welcome back</h1>
@@ -71,9 +71,9 @@
                     有时你发现，一咬牙一跺脚又是一天，然后全部困难都变成了过往云烟。那些走过的路、吃过的苦，终会成就更好的你。
                     <br/>
         </div>
-        <ZyLogo/>
+        
         <p style="color: #8A9299; font-size: 15px; margin-top: 10px">
-          <a href="https://gitee.com/Z568_568" target="_blank">
+          <a href="https://github.com/dashboard" target="_blank">
             VUE-ADMIN 基于 Vue 3 + JavaScript + Pinia +Vite + ElementPlus.搭建 
           </a>
         </p>
